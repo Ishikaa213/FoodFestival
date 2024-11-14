@@ -1,0 +1,83 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+ html,body{
+width: 100%;
+height: 100%;
+background: #fff3e0;
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+}
+.flyer {
+    width: 90%;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Large header image */
+.header-image {
+    width: 100%;
+    height: 250px;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxrEaBuC0UjQ5mzEeGg7sY2hmBFya07CQsRQ&s') no-repeat center center/cover;
+}
+/* Main flyer content */
+.content {
+    padding: 20px;
+}
+
+/* Typography */
+.title {
+    font-size: 2.5em;
+    color: #ff7043;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    color: #ff7043;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Festival details section */
+.details {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.detail {
+    font-size: 1em;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Call-to-action button */
+.cta {
+    display: inline-block;
+    background-color: #ff7043;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.cta:hover {
+    background-color: #e64a19;
+}
